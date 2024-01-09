@@ -1,0 +1,118 @@
+/* Estilos generales */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #c21111;
+    /* Color rojo */
+    color: #fff;
+
+    padding-top: 7%;
+    padding-bottom: 2%;
+
+}
+
+.header-content {
+    display: flex;
+
+
+
+}
+
+.arrow {
+    margin-right: 40px;
+    color: white;
+
+
+}
+
+.arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+
+}
+
+.foto {
+    margin-top: 3%;
+}
+
+.foto img {
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px #eb0505;
+    margin: -4px;
+
+}
+
+.datos {
+    margin-left: 5%;
+}
+
+.datos h3 {
+    font-size: 13px;
+    color: gray;
+    font-weight: 300;
+
+}
+
+.datos h2 {
+    font-size: 17px;
+    font-weight: 600;
+    font-weight: 500;
+
+}
+
+.bottom-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    /* Para asegurarse de que la imagen esté detrás del contenido */
+}
+
+.contenedor {
+    background-image: url(https://i.ibb.co/N9nNySW/luxa-org-opacity-changed-image-removebg-preview-48.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#clock {
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 0 0 0 1px #eb0505;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(12, 141, 12);
+
+
+
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+
+    /* Modifica los estilos para pantallas más pequeñas */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
